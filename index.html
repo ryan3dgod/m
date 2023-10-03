@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Mental Maths Timer</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Mental Maths Timer</h1>
+    <p class="message">Click or Press Space to start and stop the timer.</p>
+    <div class="timer-container">
+      <p id="timer">Time: 0 seconds</p>
+    </div>
+    <audio id="tingSound" src="ting.mp3"></audio>
+    <p style="font-size:20px" id="difficulty-level">Difficulty: Medium</p>
+  </div>
+
+  <div class="buttons-container">
+    <button id="easyBtn">Easy</button>
+    <button id="mediumBtn">Medium</button>
+    <button id="hardBtn">Hard</button>
+    <button id="extremeBtn">Extreme</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

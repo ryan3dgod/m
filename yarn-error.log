@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\MASTER\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js build
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\Users\MASTER\.cargo\bin;C:\Users\MASTER\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;C:\Users\MASTER\.dotnet\tools;C:\Users\MASTER\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.5.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\Timer Website\package.json: Expected double-quoted property name in JSON at position 74
+      at JSON.parse (<anonymous>)
+      at C:\Users\MASTER\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\MASTER\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\MASTER\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "spacebar-timer",
+    "version": "1.0.0",
+    "main": "main.js",  // Your main Electron script
+    "scripts": {
+      "start": "electron ."
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
